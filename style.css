@@ -10,7 +10,7 @@ body {
 
 .container {
     position: relative;
-    font-size: 5rem;
+    font-size: 5vw;
     color: white;
 }
 
@@ -18,4 +18,10 @@ body {
     position: absolute;
     opacity: 0;
     transition: all 0.5s ease;
+}
+
+@media (min-width: 600px) {
+    .container {
+        font-size: 5rem;
+    }
 }
